@@ -1,0 +1,131 @@
+
+.form-group .stars {
+    margin-bottom: 20px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    line-height: 1;
+    font-size: 32px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+
+.stars label:hover,
+.stars label:hover ~ label,
+.stars input[type="radio"]:checked ~ label {
+    color: sandybrown;
+}
+
+
+.satisfaction-group .row {
+    margin-top: 10px;
+}
+
+.satisfaction-group .row .col {
+    padding: 0;
+}
+
+
+.satisfaction-group .row .col-8 .row .col {
+    padding: 0;
+}
+
+
+.satisfaction-group .row .col-8 .row .col {
+    padding: 0;
+}
+
+.satisfaction-level .row {
+    margin-top: 10px;
+}
+
+.satisfaction-level .row .col {
+    padding: 0;
+}
+
+.satisfaction-level .row .col-8 .row .col {
+    padding: 0;
+}
+
+
+.satisfaction-level .row .col-8 .row .col {
+    padding: 0;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-danger {
+    color: red;
+    font-weight: bold;
+}
+
+
+.form-control {
+    padding: 0.375rem 0.75rem;
+}
+
+.small.text-muted {
+    font-size: 12px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:left;
+}
+
+.stars label {
+    margin-right: 5px;
+}
+
+
+.satisfaction-group .row.text-center {
+    justify-content: space-between;
+}
+
+.btn-primary {
+
+    background-color: gainsboro;
+    color: black;
+    border-color: black;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-check-input {
+    width: 12px; 
+    height: 12px; 
+    transform: scale(1.5); 
+    margin: 0 auto; 
+}
+
+.satisfaction-item .row.text-center {
+    justify-content: space-evenly;
+}
+
+.satisfaction-item .col-8{
+
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+
+
